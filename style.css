@@ -1,0 +1,70 @@
+body {
+  background-color: #f6f4e6;
+  margin-top: 80px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+  color: grey;
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.profile-pick {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #fddb3a;
+  box-shadow: 5px 2px 2px #d5c455;
+  vertical-align: baseline;
+  margin-right: 15px;
+}
+
+.work-img {
+  width: 470px;
+  height: 280px;
+
+}
+
+.work-card {
+  border: 5px solid #d5c455;
+  border-radius: 2px;
+  box-shadow: 10px 5px 5px #ede59a;
+}
+
+.work-intro {
+  margin: 20px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer {
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+/*.footer-links {
+    display: flex;
+    align-items: center;
+}*/
+
+.icon {
+  margin-right: 5px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #d5c455;
+}
