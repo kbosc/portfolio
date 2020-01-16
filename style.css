@@ -1,6 +1,11 @@
 body {
   background-color: #f6f4e6;
   margin-top: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
 }
 
 a {
