@@ -24,7 +24,7 @@ ul {
   list-style: none;
 }
 
-.profile-pick {
+#profile-pick {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -93,3 +93,22 @@ footer {
 .icon:hover {
   transform: scale(1.2, 1.2);
 }
+
+.button_container {
+  margin: 0 auto;
+}
+
+/*#fab {
+  display: none;
+  height: 100px;
+}
+
+#align-img:hover #fab {
+  display: block;
+}
+
+#align-img:hover #profile-pick {
+  display: none;
+}
+*/
+
