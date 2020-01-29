@@ -59,6 +59,7 @@ ul {
   box-shadow: 10px 10px 25px #997300;
   cursor: pointer;
   transition: 0.4s;
+  /*transform: rotate(-2deg);*/
 }
 
 .work-ext-link:hover {
@@ -83,6 +84,8 @@ ul {
 footer {
   padding-bottom: 30px;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon {
@@ -100,6 +103,11 @@ footer {
 
 .button_container {
   margin: 0 auto;
+}
+
+#counter {
+  filter: blur(4px);
+  transition: 0.4s;
 }
 
 /*#fab {
